@@ -12,7 +12,7 @@ def main():
         print("Home directory %s was created." %spotlightdir)
 
 # Get MSFT Spotlight Wallpaper files
-# C:\Users\sshar\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets
+# %USERPROFILE%\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets
     mypath = homepth+r'\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets'
     onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
     #print(onlyfiles)
